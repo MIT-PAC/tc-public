@@ -13,6 +13,8 @@ of ClearScope's CDM output:
 * An cdmt annotated example of a network read:
   [network-read.cdmt](network-read.cdmt)
 
+* Archived Q/A between us and TA2 teams: [q-and-a.md](q-and-a.md)
+
 ## Capture Examples
 
 [Our newest capture examples for CDM17](http://rhino.csail.mit.edu/tc)
