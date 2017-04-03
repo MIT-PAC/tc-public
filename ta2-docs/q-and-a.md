@@ -54,13 +54,17 @@ tags mean the data is generated without further computation or flow.
 
 ### Answer
 
-That is up to you.  For example, if app generated data is sent over
-the network, it will not have a previous tag defined.  But it might be
-important to your detection or forensics algorithms to know that a
-program wrote some data to a specific network address.  The
-provenancetagnode->netflowobject provides the connection information.   
+That is up to you.  But I think you should not ignore them.  For
+example, if an application reads a file that was written by a
+process we do not track, then the file data read will not have a
+previous tag.  Then if this data is written to the network, you will
+probably want to record that action.
 
-That is just one example.  Files are another.
+At the network sink, the tag reported on the data written will be the
+tag denoting the file read information.  The NetFlowObject on the event
+corresponding to the network sink will provide the connection details
+(local and destination address / port).  That is just one example.
+Files are another.
 
 ## NetFlowObjects and ProvenanceTagNodes
 
