@@ -21,6 +21,12 @@ Log into Ingestor box:
 Note: The last command should be run in a manner such that it will
 continue to run after logout (`tmux` or `screen` are nice).
 
+#### Kafta Addresses for TA2 Teams
+
+* RIPE Kafka cluster:   10.0.50.9:9092
+* MARPLE Kafka cluster: 10.0.50.19:9092
+* ADAPT Kafka cluster:  10.0.50.24:9092
+
 ### Bringing down the Ingestor
 
 1. `$ adb reboot` (to reboot the phone) or `$ adb shell su root 'svc
