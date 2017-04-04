@@ -4,7 +4,7 @@
 
 ### Running the Ingestor
 
-Log into Ingestor box:
+Log into Ingestor box as `darpa` user:
 
 1. `$ cd ~/ta1-integration-clearscope`
 
