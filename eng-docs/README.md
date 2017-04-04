@@ -7,8 +7,6 @@ system.
 
 1. [Additional Device Setup](additional-device-setup.md)
 
-1. [Running our System and Unit Tests](running-tests.md)
-
 1. [Notes for Engagement](notes-for-engagement.md)
 
 1. [Instrumenting an Android Application](instrumenting-new-app.md)
