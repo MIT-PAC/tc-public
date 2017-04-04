@@ -21,6 +21,12 @@ Log into Ingestor box as `darpa` user:
 Note: The last command should be run in a manner such that it will
 continue to run after logout (`tmux` or `screen` are nice).
 
+We have also created shortcut scripts in the `~/ta1-integration-clearscope` directory of 
+each ingestor machine for running the ingestor with the respective kakfa address.  Run these 
+scripts with:
+
+`$ source ~/ta1-integration-clearscope/ingestor-kafka-[ripe,adapt,marple]`
+
 #### Kafta Addresses for TA2 Teams
 
 * RIPE Kafka cluster:   10.0.50.9:9092
