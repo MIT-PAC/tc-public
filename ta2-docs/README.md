@@ -12,6 +12,8 @@ of ClearScope's CDM output:
 
 * An cdmt annotated example of a network read:
   [network-read.cdmt](network-read.cdmt)
+  
+* ClearScope captured system calls to CDM17 EventType: [syscalls-to-eventtype.txt](syscalls-to-eventtype.txt)
 
 * Archived Q/A between us and TA2 teams: [q-and-a.md](q-and-a.md)
 
