@@ -15,6 +15,8 @@ of ClearScope's CDM output:
   
 * ClearScope captured system calls to CDM17 EventType: [syscalls-to-eventtype.txt](syscalls-to-eventtype.txt)
 
+* Detail regarding the generation of provenance tags for Linux system calls [syscalls-src-sink-classification.md](syscalls-src-sink-classification.md)
+
 * Archived Q/A between us and TA2 teams: [q-and-a.md](q-and-a.md)
 
 ## Capture Examples
