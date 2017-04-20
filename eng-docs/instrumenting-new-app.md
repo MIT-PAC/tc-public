@@ -6,7 +6,7 @@
 
 1. `$ instr <app-name>.apk`
 
-Aligned and (debug) signed apk is written to `sootOutput/<app-name>-instr-aligned.apk`.
+Aligned and (debug) signed apk is written to `sootOutput/<app-name>.apk`.
 
 ## Ant Project
 
